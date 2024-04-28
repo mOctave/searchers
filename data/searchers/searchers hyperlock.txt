@@ -12,7 +12,7 @@
 # this program. If not, see <https://www.gnu.org/licenses/>.
 
 # A set of missions which links and unlinks the rim systems with Photon on a
-# random basis.
+# random basis. 
 mission "Open Hyperlock: Quark"
 	invisible
 	landing
