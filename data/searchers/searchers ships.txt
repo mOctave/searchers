@@ -1,0 +1,429 @@
+# Copyright (c) 2022 by mOctave
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+ship "Searcher Pestle"
+	sprite "ship/searcher pestle"
+	thumbnail "thumbnail/searcher pestle"
+	attributes
+		category "Drone"
+		"cost" 1000000
+		"shields" 100
+		"hull" 1400
+		"mass" 28
+		"drag" .7
+		"heat dissipation" 0.91
+		"cargo space" 10
+		"outfit space" 80
+		"weapon capacity" 27
+		"engine capacity" 38
+		"automaton" 1
+		weapon
+			"blast radius" 8
+			"shield damage" 80
+			"hull damage" 40
+			"hit force" 120
+	outfits
+		"Ionized Impactor"
+		"Scattergun Anti-Missile"
+
+		"SSU-1 Obstructive Shields"
+
+		"Solar Collection Unit"
+		"Axiom Battery"
+		
+		"X1700 Ion Thruster"
+		"X1200 Ion Steering"
+
+	gun 0 -21 "Energy Blaster"
+	turret 0 1.5 "Scattergun Anti-Missile"
+	engine -8 20
+	engine 8 20
+
+ship "Searcher Mortar"
+	sprite "ship/searcher mortar"
+	thumbnail "thumbnail/searcher mortar"
+	attributes
+		category "Drone"
+		"cost" 1000000
+		"shields" 100
+		"hull" 1400
+		"mass" 28
+		"drag" .7
+		"heat dissipation" 0.91
+		"cargo space" 10
+		"outfit space" 80
+		"weapon capacity" 18
+		"engine capacity" 38
+		"automaton" 1
+		weapon
+			"blast radius" 8
+			"shield damage" 80
+			"hull damage" 40
+			"hit force" 120
+	outfits
+		"Meteor Missile Launcher"
+		"Meteor Missile" 60
+
+		"SSU-1 Obstructive Shields"
+
+		"Solar Collection Unit"
+		"Axiom Battery"
+		
+		"X1700 Ion Thruster"
+		"X1200 Ion Steering"
+
+	gun -8.5 -25.5 "Meteor Missile Launcher"
+	gun 8.5 -25.5 "Meteor Missile Launcher"
+	engine -8 24
+	engine 8 24
+
+ship "Searcher Temple"
+	sprite "ship/searcher temple"
+	thumbnail "thumbnail/searcher temple"
+	attributes
+		category "Light Freighter"
+		"cost" 3200000
+		"shields" 4800
+		"hull" 4000
+		"required crew" 32
+		"bunks" 41
+		"mass" 320
+		"drag" 9.5
+		"heat dissipation" 0.75
+		"fuel capacity" 400
+		"cargo space" 240
+		"outfit space" 410
+		"weapon capacity" 80
+		"engine capacity" 160
+		weapon
+			"blast radius" 88
+			"shield damage" 880
+			"hull damage" 440
+			"hit force" 1320
+	outfits
+		"Energy Blaster" 2
+		"Meteor Missile Launcher" 2
+		"Meteor Missile" 60
+
+		"Sharpshooter Anti-Missile"
+
+		"SSU-2 Protective Shields"
+
+		"Solar Collection Unit" 2
+		"Lemma Battery"
+		"Linguistic Scanner"
+		
+		"SGT-1 Castor Thruster"
+		"X3200 Ion Steering"
+
+		"Hyperdrive"
+
+	gun -33.5 -80.5 "Meteor Missile Launcher"
+	gun -6.5 -97 "Energy Blaster"
+	gun 33.5 -80.5 "Meteor Missile Launcher"
+	gun 6.5 -97 "Energy Blaster"
+	turret 4 36 "Sharpshooter Anti-Missile"
+	engine -16.5 94.5
+	engine 16.5 94.5
+	bay "Drone" -33 -22
+		under
+		left
+	bay "Drone" 33 -22
+		under
+		right
+
+ship "Searcher Chapel"
+	sprite "ship/searcher chapel"
+	thumbnail "thumbnail/searcher chapel"
+	attributes
+		category "Transport"
+		"cost" 5100000
+		"shields" 7000
+		"hull" 4500
+		"required crew" 45
+		"bunks" 100
+		"mass" 510
+		"drag" 13.8
+		"heat dissipation" 0.7
+		"fuel capacity" 600
+		"cargo space" 260
+		"outfit space" 650
+		"weapon capacity" 140
+		"engine capacity" 220
+		weapon
+			"blast radius" 115
+			"shield damage" 1150
+			"hull damage" 575
+			"hit force" 1725
+	outfits
+		"Energy Blaster" 2
+		"Meteor Missile Launcher" 4
+		"Meteor Missile" 120
+
+		"Sharpshooter Anti-Missile" 2
+		"Impactor Turret"
+
+		"SSU-3 Effective Shields"
+
+		"Solar Collection Unit" 2
+		"Lemma Battery"
+		"Linguistic Scanner"
+		
+		"SGT-1 Castor Thruster"
+		"X3200 Ion Steering"
+
+		"Hyperdrive"
+
+	gun -34 -81 "Energy Blaster"
+	gun -6.5 -97.5  "Meteor Missile Launcher"
+	gun -59 -19  "Meteor Missile Launcher"
+	gun 34 -81 "Energy Blaster"
+	gun 6.5 -97.5  "Meteor Missile Launcher"
+	gun 59 -19  "Meteor Missile Launcher"
+	turret -59 2.5 "Sharpshooter Anti-Missile"
+	turret 4 36.5 "Impactor Turret"
+	turret 59 2.5 "Sharpshooter Anti-Missile"
+	engine -59 90
+		"zoom" 0.75
+	engine -16.5 94.5
+		"zoom" 0.75
+	engine 59 90
+		"zoom" 0.75
+	engine 16.5 94.5
+		"zoom" 0.75
+	bay "Drone" -33 -22
+		under
+		left
+	bay "Drone" 33 -22
+		under
+		right
+
+ship "Searcher Ziggurat"
+	sprite "ship/searcher ziggurat"
+	thumbnail "thumbnail/searcher ziggurat"
+	attributes
+		category "Heavy Freighter"
+		"cost" 5800000
+		"shields" 8000
+		"hull" 6000
+		"required crew" 61
+		"bunks" 72
+		"mass" 570
+		"drag" 14.6
+		"heat dissipation" 0.7
+		"fuel capacity" 500
+		"cargo space" 380
+		"outfit space" 410
+		"weapon capacity" 110
+		"engine capacity" 160
+		weapon
+			"blast radius" 140
+			"shield damage" 1400
+			"hull damage" 700
+			"hit force" 2100
+	outfits
+		"Energy Blaster" 2
+		"Meteor Missile Launcher" 2
+		"Meteor Missile" 60
+
+		"Sharpshooter Anti-Missile" 2
+		"Impactor Turret"
+
+		"SSU-3 Effective Shields"
+
+		"Solar Collection Unit" 3
+		"Lemma Battery"
+		"Linguistic Scanner"
+		
+		"SGT-1 Castor Thruster"
+		"X3200 Ion Steering"
+
+		"Hyperdrive"
+
+	gun -33.5 -89 "Meteor Missile Launcher"
+	gun -6.5 -107 "Energy Blaster"
+	gun 33.5 -89 "Meteor Missile Launcher"
+	gun 6.5 -107 "Energy Blaster"
+	turret -76 60 "Sharpshooter Anti-Missile"
+	turret 4 27 "Impactor Turret"
+	turret 76 60 "Sharpshooter Anti-Missile"
+	engine -16.5 85
+	engine 16.5 85
+	bay "Drone" -33 -32
+		under
+		left
+	bay "Drone" 33 -32
+		under
+		right
+	bay "Drone" -76 13
+		under
+	bay "Drone" -76 107
+		under
+		back
+	bay "Drone" 76 13
+		under
+	bay "Drone" 76 107
+		under
+		back
+
+ship "Searcher Cathedral"
+	sprite "ship/searcher cathedral"
+	thumbnail "thumbnail/searcher cathedral"
+	attributes
+		category "Utility"
+		"cost" 7050000
+		"shields" 9000
+		"hull" 7000
+		"required crew" 69
+		"bunks" 117
+		"mass" 660
+		"drag" 16.7
+		"heat dissipation" 0.65
+		"fuel capacity" 500
+		"cargo space" 450
+		"outfit space" 700
+		"weapon capacity" 160
+		"engine capacity" 180
+		weapon
+			"blast radius" 160
+			"shield damage" 1600
+			"hull damage" 800
+			"hit force" 2400
+	outfits
+		"Energy Blaster" 2
+		"Meteor Missile Launcher" 2
+		"Meteor Missile" 60
+
+		"Sharpshooter Anti-Missile"
+		"Impactor Turret" 2
+
+		"SSU-3 Effective Shields"
+
+		"Solar Collection Unit" 3
+		"Presupposition Battery"
+		"Linguistic Scanner"
+		
+		"SGT-1 Castor Thruster"
+		"X3200 Ion Steering"
+
+		"Hyperdrive"
+
+	gun -34 -88 "Meteor Missile Launcher"
+	gun -6 -105 "Energy Blaster"
+	gun 6 -105 "Energy Blaster"
+	gun 34 -88 "Meteor Missile Launcher"
+	turret 4 28.5 "Sharpshooter Anti-Missile"
+	turret -76 62 "Impactor Turret"
+	turret 76 62 "Impactor Turret"
+	engine -17 86
+	engine 17 86
+	bay "Drone" -97 61
+		under
+		left
+	bay "Drone" -96 61
+		under
+		left
+	bay "Drone" 97 61
+		under 
+		right
+	bay "Drone" 96 61
+		under
+		right
+	bay "Drone" -35 -30.5
+		under
+		left
+	bay "Drone" 35 -30.5
+		under
+		right
+
+ship "Searcher Pyramid"
+	sprite "ship/searcher pyramid"
+	thumbnail "thumbnail/searcher pyramid"
+	attributes
+		category "Heavy Freighter"
+		"cost" 9300000
+		"shields" 14000
+		"hull" 9000
+		"required crew" 80
+		"bunks" 96
+		"mass" 860
+		"drag" 21.9
+		"heat dissipation" 0.7
+		"fuel capacity" 600
+		"cargo space" 600
+		"outfit space" 530
+		"weapon capacity" 180
+		"engine capacity" 240
+		weapon
+			"blast radius" 230
+			"shield damage" 2300
+			"hull damage" 1150
+			"hit force" 3450
+	outfits
+		"Energy Blaster" 2
+		"Meteor Missile Launcher" 4
+		"Meteor Missile" 120
+
+		"Sharpshooter Anti-Missile" 2
+		"Impactor Turret" 3
+
+		"SSU-4 Reliable Shields"
+
+		"Solar Collection Unit" 3
+		"Presupposition Battery"
+		"Linguistic Scanner"
+		
+		"SGT-1 Castor Thruster"
+		"X3200 Ion Steering"
+
+		"Hyperdrive"
+
+	gun -33.5 -125 "Meteor Missile Launcher"
+	gun -6.5 -141 "Energy Blaster"
+	gun 33.5 -125 "Meteor Missile Launcher"
+	gun 6.5 -141 "Energy Blaster"
+	gun -8 9.5 "Meteor Missile Launcher"
+	gun 8 9.5 "Meteor Missile Launcher"
+	turret 4 -8.5 "Impactor Turret"
+	turret -136.5 59 "Sharpshooter Anti-Missile"
+	turret -76 25 "Impactor Turret"
+	turret 136.5 59 "Sharpshooter Anti-Missile"
+	turret 76 25 "Impactor Turret"
+	engine -136.5 112.5
+		"zoom" 0.75
+	engine -17 48
+		"zoom" 0.75
+	engine 136.5 112.5
+		"zoom" 0.75
+	engine 17 48
+		"zoom" 0.75
+	bay "Drone" -33 -67
+		under
+		left
+	bay "Drone" 33 -67
+		under
+		right
+	bay "Drone" -137 13
+		under
+	bay "Drone" 137 13
+		under
+	bay "Drone" -76 -21
+		under
+	bay "Drone" 76 -21
+		under
+	bay "Drone" -76 71
+		under
+		back
+	bay "Drone" 76 71
+		under
+		back

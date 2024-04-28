@@ -1,0 +1,121 @@
+# Copyright (c) 2023 by mOctave
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+planet Aes
+	attributes searchers mining
+	landscape land/badlands4
+	description `Aes is a very strange world, completely devoid of life. Although there is an atmosphere, it is completely unbreatheable, and the dry heat is oppressive. This planet should not be habitatable, yet the Searchers have managed to live here, building giant domes on the surface and sealed caves underneath. Perhaps the reason this planet has been settled is that it is full of useful ores: the entire planet amounts to one big mining operation for iron, nickel, and gold.`
+	spaceport `The spaceport here is what looks to your eyes a lot like pictures you've seen of bases on Mars prior to its terraforming: undeniably mechanical, designed to withstand hostile climates, and very, very old. The landing pads are basically giant airlocks: you land on a ring that closes the dome, and then the entire chamber is pumped full of breathable air. When a ship takes off, it first must go through the several-minute long process of pumping the air back out again.`
+
+planet Apto
+	attributes searchers manufacturing urban shipping
+	landscape land/city6
+	description `Apto is a world of dusty hills and giant cities. It is here that most of the Searchers' equipment is manufactured, and most of the planet is covered in a perputual smog due to the poor pollution controls in place here. Despite this, it is a fairly wealthy world, with a lot of its profits coming from the shipment of goods between it and the Searcher capital, Domum. The residents are generally acceptably healthy, the cities are well-maintained, and the government keeps everything moving smoothly.`
+	spaceport `The spaceport here is surprisingly small for the amount of traffic it receives. Instead of being a sprawling mass like many spaceports, it is instead an intricate piece of abstract art: almost completed automated, well-maintained, and only a couple of decades old. There are very few buildings here: just an administrative complex designed to deal with injuries, annoyed pilots, and air traffic control. The automation begins to make sense as you wander around: this is a planet of engineering and manufacturing, and it seems reasonable that some of it has spilled over into the spaceport.`
+
+planet Aurum
+	attributes searchers urban rich
+	landscape land/city18-iridium
+	description `Aurum is a prosperous planet, thriving on the sale of luxury goods to the Searcher capital. It is also packed with Searchers seeking easy money, but that money tends to be in the hands of a few high-caste individuals who are unlikely to want to part with any of it. Most Searchers who come here looking for employment end up polishing gems, working at producing expensive textiles or equipment, or leaving soon afterwards on one of the many ships that come here.`
+	spaceport `The spaceport on Aurum is undeniably luxurious, with stylish gold trim, polished metal walls, and fountains of what look to be mercury but are probably actually water. Nonetheless, you stay away from the fountains, feeling a little out of place among all the pomposity of the spaceport. A team of low-caste Searchers scrub at the floor under your ship, polishing it back up to perfection, and another group works at chiseling away at the gold on the walls to create complex art.`
+
+planet Calidus
+	attributes searchers urban forest tourism
+	landscape land/forest4
+	description `Calidus is a pleasant green planet, perhaps a bit warm, but otherwise very comfortable. One whole half of its surface has been declared a nature preserve. The other side is home to around twelve billion Searchers. Unlike the home world of the Searchers, Calidus has virtually no dangerous species, and many middle and upper class Searchers take vacations into the nature preserve here to admire the beauty of the well-organized natural world.`
+	spaceport `The spaceport is located on the equator. To the north, the towers of a great metropolis rise far into the sky. To the south is jungle, filled with the sounds of some very strange animals. You watch as a large four-limbed beast prowls around your ship at a careful distance and retreats back into the jungle. The overall effect is quite overpowering.`
+
+planet Cibus
+	attributes searchers urban farming
+	landscape land/city14-sfiera
+	description `Cibus is the farm world of the Searchers. Its towers are filled with all sorts of modern farming equipment, and most of its seven billion inhabitants live solely to feed the rest of the Searcher empire. Although there are occasional parks, most of the land area of Cibus is filled with farmland and towers. Cibus is one of the few planets with a growing population in Searcher space. Even then, many young Searchers leave the planet for the stars in search of something better.`
+	spaceport `The spaceport here covers the entirety of a large island, and is just as filled with towers as the rest of the planet. How you managed to land your ship in one piece is something you have trouble understanding, and you wonder how it is that fleets of the largest Searcher capital ships regularly take off and land here. Even as you watch, one of the smaller Searcher freighters glides noiselessly through the maze of buildings to land beside you.`
+
+planet Domum
+	attributes searchers
+	landscape land/fog10
+	description `Domum is a jungle world, the home planet of all the Searchers. From a height, it looks like a tropical paradise, but the surface is infested by swarms of thousands of herbivorous insects, which regularly chew up large swathes of jungle. These insects would be only a minor nuissance, but in such large quantities, the toxins they use to break down their food poison the jungle for years. These swarms occasionally run across the villages of the Searchers, who deal with them by digging trenches and putting down large quantities of insecticide around their villages.`
+	description `	There is no center of government on Domum: each village is ruled by an Erus-caste Searcher who meets with the other members of the ruling caste using video conferencing to decide important matters of state. Each Erus-caste Searcher has near-total control over their village.`
+	spaceport `There are few large cities on Domum, even though the Seakers seem to have overpopulated all of their other planets. There is no main spaceport here: each village has its own, and none of them have all that great a capacity. Visting freighters tend to stop at each village individually, the villagers having placed orders for items they require ahead of time in most cases. The spaceport here is similar to all the others on this planet: positioned in the center of a fairly large village, and consisting of a solid chunk of rock with rings etched into it to denote landing spots.`
+
+planet Eastgate
+	wormhole Eastgate
+
+wormhole Eastgate
+	mappable
+	color .4 1 .0
+	link Photon Meson
+	link Meson Photon
+
+planet Fornax
+	attributes searchers manufacturing moon
+	landscape land/loc0
+	description `Fornax is the second moon of a large gas giant. Although this would not normally be all that impressive, this moon has been completely enclosed in a metal sheath, which allows the moon to avoid the temperature fluctuations that would normally be common on such a world. Fornax is also an enormous industrial center, filled with millions upon millions of Searchers whose lives are dedicated to the production of machinery.`
+	spaceport `The spaceport is built on top of the metal shell. Upon leaving your ship, you enter an enclosed walkway that enables you to travel into the heart of the metal moon without being exposed to vacuum. The spaceport is not very busy: there are only a couple of Searcher ships visible right now despite the fact that the spaceport appears to have been designed for hundreds. Perhaps this world is slowly becoming less and less important: its population is certainly decreasing.`
+
+planet Fulmen
+	attributes searchers manufacturing volcanic forest
+	landscape land/forest5
+	description `Fulmen is what happens when an entire planet is converted to manufacturing electrical products. This mountainous world is full of electrical fabrication plants and hidden cities. It is powered by geothermal power from its many volcanoes, and is heavily forested. Despite the level of industrialization here, the planet is fairly clean, with low levels of pollution and environmental damage.`
+	spaceport `The spaceport here is hidden deep in one of the mountain ranges, accessible only by flying through one of many narrow gorges. You can't help but feel that the spaceport is intentionally hard to access: anyone trying to get in or out has to face an entire canyon's worth  of hidden defenses. Because of the remote location, the spaceport is quite small, but it is very sophisticated and quite aesthetically pleasing with its rugged, natural design.`
+
+planet Ligo
+	attributes searchers manufacturing urban shipping moon
+	landscape land/city9
+	description `Ligo is the largest importer of biological products in all of Searcher space, accepting just about any sort of waste product for conversion into plastics. These plastics are then exported for use in thousands of fields, from medicine to heavy industry. This entire planet exists just to be a giant manufacturing plant for the Searchers, and suffers from enormous amounts of environmental damage because of it.`
+	spaceport `The spaceport here is unusually large, built to handle the influx of biomass that the planet receives. One entire wing is dedicated solely to hazardous materials of all sorts, and another works at packing plastics into large containers. There are many Searchers here, as there is less automation to be found in this spaceport than in others in Searcher space, and you get an eerie feeling, as if the Searchers here were machines, instead of people doing the tasks of machines. No one speaks, and the dominant sound as the patter of thousands of swftly moving feet.`
+
+planet Northgate
+	wormhole Northgate
+
+wormhole Northgate
+	mappable
+	color .4 1 .0
+	link Photon Electron
+	link Electron Photon
+
+planet Sacoma
+	attributes searchers manufacturing mining
+	landscape land/canyon12
+	description `Sacoma is a planet dedicated to the production and refining of heavy metals. It is very remote, and is sparsely populated due to high prices for most things and a lack of jobs, the operation being almost completely automated. Sacoma was only settled by the Searchers about five hundred years ago, making it a young colony world compared with all their other planets.`
+	spaceport `The spaceport here appears to be constructed out of concrete. For an almost deserted world, the spaceport is a hive of activity, with several ships landing and taking off at the same time. It is certainly not designed for the traffic it is getting, although from the looks of things there is another spaceport being constructed nearby that should take some of the strain away from this one. Most of the Searchers here appear to be with one or another of the vessels: there are very few locals around, most of them having better things to do than stand in a freezing spaceport.`
+
+planet Salus
+	attributes searchers medical rich military
+	landscape land/clouds_02
+	description `Salus is a very cloudy world, notable for its heat and the red tint that the cloud cover gives its sun. The largest producer of medical products of all Searcher planets, it is very rich, and boasts the only major military base in all of Searcher space. Your ship is scanned upon landing, and you are carefully watched to make sure you don't attempt to do anything illegal.`
+	spaceport `The spaceport on Salus is very large, dominated by the military base. There is a lot of traffic here, but it has managed to avoid the worst of the congestion by the use of an extraordinarily complicated transportation network. The landing pads are generously sized, and there are enough if them to land even the very largest of fleets. As soon as you landed, you were provided with a guide instructing you in the operation of the transportation network.`
+
+planet Southgate
+	wormhole Southgate
+
+wormhole Southgate
+	mappable
+	color .4 1 .0
+	link Photon Baryon
+	link Baryon Photon
+
+planet Tela
+	attributes searchers textiles
+	landscape land/mountain9
+	description `Tela is the largest cloth producer of Searcher space, despite its size. It is covered in massive textile mills, and under its surface are hidden thousands upon thousands of young Searchers who labour daily producing cloth. Tela's population never sees most of the cloth it produces again: it is shipped elsewhere, to where it can sell for a good deal more money. Because of this, Tela is a very poor world, whose inhabitants have to constantly struggle to survive.`
+	spaceport `The spaceport on Tela is located high in the mountains. From it you can see hundreds of caves in the sides of mountains, each housing hundreds of destitute Searchers. Although the poverty here comes as a bit of a surprise, what is even more surprising is that everyone seems to take it for granted. Those who cannot find work slowly die off, replaced by an influx of new immigrants seeking their fortune away from home.`
+
+planet Westgate
+	wormhole Westgate
+
+wormhole Westgate
+	mappable
+	color .4 1 .0
+	link Photon Quark
+	link Quark Photon

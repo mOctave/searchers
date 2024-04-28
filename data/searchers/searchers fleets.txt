@@ -1,0 +1,173 @@
+# Copyright (c) 2022 by mOctave
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+fleet "Small Searchers"
+	government "Searchers"
+	names "searchers"
+	fighters "searchers fighters"
+	personality
+		heroic
+		vindictive
+		harvests
+		confusion 40
+	variant 5
+		"Searcher Temple"
+	variant 4
+		"Searcher Temple"
+		"Searcher Pestle"
+	variant 4
+		"Searcher Temple"
+		"Searcher Mortar"
+	variant 4
+		"Searcher Temple"
+		"Searcher Pestle" 2
+	variant 4
+		"Searcher Temple"
+		"Searcher Pestle"
+		"Searcher Mortar"
+	variant 4
+		"Searcher Temple"
+		"Searcher Mortar" 2
+	variant 2
+		"Searcher Chapel"
+	variant 2
+		"Searcher Chapel"
+		"Searcher Pestle"
+	variant 2
+		"Searcher Chapel"
+		"Searcher Mortar"
+	variant 2
+		"Searcher Chapel"
+		"Searcher Pestle" 2
+	variant 2
+		"Searcher Chapel"
+		"Searcher Pestle"
+		"Searcher Mortar"
+	variant 2
+		"Searcher Chapel"
+		"Searcher Mortar" 2
+	variant
+		"Searcher Ziggurat"
+	variant
+		"Searcher Ziggurat"
+		"Searcher Pestle" 2
+	variant
+		"Searcher Ziggurat"
+		"Searcher Mortar" 2
+	variant
+		"Searcher Ziggurat"
+		"Searcher Pestle" 4
+	variant
+		"Searcher Ziggurat"
+		"Searcher Pestle" 6
+	variant
+		"Searcher Ziggurat"
+		"Searcher Pestle" 3
+		"Searcher Mortar" 3
+	variant
+		"Searcher Ziggurat"
+		"Searcher Mortar" 4
+	variant
+		"Searcher Ziggurat"
+		"Searcher Mortar" 6
+
+fleet "Medium Searchers"
+	government "Searchers"
+	names "searchers"
+	fighters "searchers fighters"
+	personality
+		heroic
+		vindictive
+		harvests
+		confusion 30
+	variant 5
+		"Searcher Cathedral"
+	variant 3
+		"Searcher Cathedral"
+		"Searcher Pestle" 6
+	variant 3
+		"Searcher Cathedral"
+		"Searcher Mortar" 6
+	variant 3
+		"Searcher Cathedral"
+		"Searcher Pestle" 3
+		"Searcher Mortar" 3
+	variant
+		"Searcher Cathedral"
+		"Searcher Pestle"
+		"Searcher Mortar" 2
+	variant
+		"Searcher Cathedral"
+		"Searcher Pestle" 2
+		"Searcher Mortar"
+	variant
+		"Searcher Cathedral"
+		"Searcher Pestle"
+	variant
+		"Searcher Cathedral"
+		"Searcher Mortar"
+	variant 3
+		"Searcher Pyramid"
+	variant 2
+		"Searcher Pyramid"
+		"Searcher Pestle" 8
+	variant
+		"Searcher Pyramid"
+		"Searcher Pestle" 5
+	variant 2
+		"Searcher Pyramid"
+		"Searcher Mortar" 8
+	variant
+		"Searcher Pyramid"
+		"Searcher Mortar" 5
+	variant
+		"Searcher Pyramid"
+		"Searcher Pestle" 2
+		"Searcher Mortar" 6
+	variant
+		"Searcher Pyramid"
+		"Searcher Pestle" 4
+		"Searcher Mortar" 4
+	variant
+		"Searcher Pyramid"
+		"Searcher Pestle" 6
+		"Searcher Mortar" 2
+	variant
+		"Searcher Pyramid"
+		"Searcher Pestle" 2
+		"Searcher Mortar" 2
+
+fleet "Searchers Rebels"
+	government "Searcher Rebel"
+	names "searchers"
+	fighters "searchers"
+	personality
+		hunting
+		vindictive
+		coward
+		confusion 30
+	variant
+		"Searcher Temple"
+		"Searcher Mortar" 2
+	variant
+		"Searcher Chapel"
+		"Searcher Mortar" 2
+	variant
+		"Searcher Ziggurat"
+		"Searcher Mortar" 6
+	variant
+		"Searcher Cathedral"
+		"Searcher Mortar" 6
+	variant
+		"Searcher Pyramid"
+		"Searcher Mortar" 8

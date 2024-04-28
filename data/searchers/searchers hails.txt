@@ -1,0 +1,131 @@
+# Copyright (c) 2023 by mOctave
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+# Hails for the Searchers
+phrase "searcher friendly"
+	phrase
+		"searcher greeting"
+
+phrase "searcher hostile"
+	phrase
+		""
+
+
+
+# Hails for the Searchers
+phrase "searcher greeting"
+	word
+		"Good day" 2
+		"Salutations" 2
+		"Greetings" 2
+		"Good to see you"
+		"Fare well"
+		"Godspeed"
+		"Many happy returns"
+		"Stars be with you"
+	word
+		", "
+	word
+		"Captain"
+		"Captain <first>-<last>"
+		"Captain <first>-<last> of the Humans"
+		"Erun"
+		"Erun <first>-<last>"
+		"Erun <first>-<last> of the Humans"
+
+# Hails for the Searcher rebels
+phrase "searcher rebel friendly"
+	phrase
+		"revolutionary quotes"
+
+phrase "searcher rebel hostile"
+	phrase
+		"revolutionary quotes"
+		"searcher rebel insults"
+
+phrase "revolutionary quotes"
+	word
+		"We who are about to die salute you."
+		"I have not yet begun to fight!"
+		"Give me liberty or give me death!"
+		"This country, with its institutions, belongs to the people who inhabit it."
+		"You can kill a revolutionary but you can never kill the revolution."
+		"In a time of universal deceit, telling the truth is a revolutionary act."
+		"The ultimate end of all revolutionary social change is to establish the sanctity of life."
+		"We must all build national unity, build all revolutionary forces, into one powerful wave to sweep away our main enemy."
+		"It is repression that creates the revolutionary spirit of freedom."
+		"Is it possible that my people live in such awful conditions?"
+		"I am a hidden meaning made to defy."
+		"If they mean to have a war, let it begin here!"
+		"These are not troops. They are skeletons."
+		"The hour is fast approaching on which the honour and success of this army, and the safety of our bleeding country depend."
+		"I'm not throwing away my shot!"
+		"You villian, what are you doing?"
+		"The bitterest tears shed over graves are for words left unsaid and deeds left undone."
+		"Liberty, equality, fraternity!"
+		"Fire on the tyranny of privilege and oppression that enclosed common land."
+		"The riders were faceless, dark shadows in barred steel helmets. But their mounts glared, foamed and tossed their heads as they came on."
+		"Equality means nothing unless it includes the poor."
+		"The revolutionaries who do not shake the foundations are themselves shaken by them."
+		"Everything is lost except honor!"
+		"The tree of liberty must be refreshed from time to time with the blood of patriots and tyrants."
+		"To be a true revolutionary, you have to be an optimist."
+		"The Revolution is not over. It has only just begun."
+		"The law can be an effective instrument of tyranny if those who enforce it are not accountable to the people."
+		"All are born equal and free of privilege."
+		"I have no wish to take life, not even human life."
+
+phrase "searcher rebel insults"
+	word
+		"ugly"
+		"sly"
+		"evil"
+		"idiotic"
+		"hated"
+		"unpleasant"
+		"warmongering"
+		"despotic"
+		"foolish"
+		"despicable"
+	word
+		" "
+	word
+		"oligarch"
+		"sympathizer"
+		"pilot"
+		"faux-Erun"
+		"imperialist"
+		"tormentor"
+		"traitor"
+		"oppressor"
+		"criminal"
+		"villain"
+		"tyrrant"
+
+phrase "searcher rebel curses"
+	word
+		"Die, "
+		"Curse you, you "
+		"Taste my fire, "
+		"It ends here, "
+		"Die a fiery death, "
+		"Farewell, "
+		"Prepare to die, "
+		"I will destroy you, "
+		"The Revolution lives on, you "
+		"Curse you for a "
+	phrase
+		"searcher rebel insults"
+	word
+		"." 2
+		"!"

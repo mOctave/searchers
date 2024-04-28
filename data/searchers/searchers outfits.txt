@@ -1,0 +1,288 @@
+# Copyright (c) 2022 by mOctave
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+outfit "Ionized Impactor"
+	category "Guns"
+	"cost" 34000
+	thumbnail "outfit/impactor"
+	"mass" 11
+	"outfit space" -11
+	"weapon capacity" -11
+	"gun ports" -1
+	weapon
+		sprite "effect/impactor"
+			"no repeat"
+			"frame rate" 30
+		sound "plasma"
+		"hit effect" "plasma explosion"
+		"lifetime" 45
+		"velocity" 14
+		"inaccuracy" 4
+		"reload" 6
+		"firing energy" 1.9
+		"firing heat" 14
+		"shield damage" 6.2
+		"hull damage" 8.4
+		"heat damage" 32
+		"minable damage" 12.6
+		"hit force" 18
+	description "While many races use concentrated beam weapons for their mining operations, the Searchers have found that plasma works just as well if tuned properly. Although not known for its high yield, the Ionized Impactor can decimate an asteroid very quickly... or an unwary drone."
+
+outfit "Impactor Turret"
+	category "Turrets"
+	"cost" 117000
+	thumbnail "outfit/impactor turret"
+	"mass" 38
+	"outfit space" -38
+	"weapon capacity" -38
+	"turret mounts" -1
+	weapon
+		sprite "effect/impactor"
+			"no repeat"
+			"frame rate" 30
+		"hardpoint sprite" "hardpoint/impactor turret"
+		"hardpoint offset" 12.
+		sound "plasma"
+		"hit effect" "plasma explosion"
+		"lifetime" 45
+		"velocity" 14
+		"inaccuracy" 4
+		"turret turn" 3.2
+		"reload" 2
+		"firing energy" 2
+		"firing heat" 14.5
+		"shield damage" 6.2
+		"hull damage" 8.4
+		"heat damage" 32
+		"minable damage" 12.6
+		"hit force" 18
+	description "Three Ionized Impactors mounted on a turret provide the primary defensive armament of the Searchers' ships. On top of being an effective mining weapon, these turrets impart enough force to their target to temporarily detain a criminal ship trying to escape to the safety of hyperspace."
+
+outfit "Scattergun Anti-Missile"
+	category "Turrets"
+	"cost" 46000
+	thumbnail "outfit/small searcher antimissile"
+	"mass" 24
+	"outfit space" -16
+	"weapon capacity" -16
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/small searcher antimissile"
+		"hit effect" "scattergun anti-missile"
+		"anti-missile" 6
+		"velocity" 80
+		"lifetime" 1
+		"reload" 2
+		"firing energy" 2
+		"firing heat" 4
+	
+	description "The Scatergun Anti-Missile Turret is an antiquated design dating back to when the biggest threat to Searcher vessels was small asteroids. Rarely used in those days and painfully slow to adjust elevation, it is still a powerful weapon when it can be brought to bear. At maximum rate of fire, it launches thirty powerful but short-ranged bursts of hyperfocused plasma per second."
+
+effect "scattergun anti-missile"
+	sprite "effect/scattergun"
+		"no repeat"
+		"frame rate" 4
+	sound "anti-missile"
+	"lifetime" 31
+	"velocity scale" 1
+
+outfit "Sharpshooter Anti-Missile"
+	category "Turrets"
+	"cost" 89000
+	thumbnail "outfit/large searcher antimissile"
+	"mass" 37
+	"outfit space" -28
+	"weapon capacity" -28
+	"turret mounts" -1
+	weapon
+		"hardpoint sprite" "hardpoint/large searcher antimissile"
+		"hit effect" "sharpshooter anti-missile"
+		"anti-missile" 15
+		"velocity" 360
+		"lifetime" 1
+		"reload" 20
+		"firing energy" 6
+		"firing heat" 10
+	
+	description "Although the Sharpshooter anti-missile system fires far slower than the Scattergun, it more than makes up for this in the range and power of the individual transluminal plasma beams. These carefully concentrated projectiles are nearly indistinguishable from lasers, picking off missiles far before they can get close enough to do any harm."
+
+effect "sharpshooter anti-missile"
+	sprite "effect/sharpshooter"
+		"no repeat"
+		"frame rate" 3
+	sound "anti-missile"
+	"lifetime" 46
+	"velocity scale" 1
+
+outfit "Axiom Battery"
+	plural "Axiom Batteries"
+	category "Power"
+	"cost" 27300
+	thumbnail "outfit/tiny searcher battery"
+	"mass" 6
+	"outfit space" -6
+	"energy capacity" 3600
+	description "The Axiom Battery is the smallest energy storage unit produced by the Searchers. It is very efficient, but also expensive."
+
+outfit "Lemma Battery"
+	plural "Lemma Batteries"
+	category "Power"
+	"cost" 75300
+	thumbnail "outfit/small searcher battery"
+	"mass" 14
+	"outfit space" -14
+	"energy capacity" 8400
+	description "The next step up from the smallest of the Searchers' batteries, the Lemma Battery is even more compact than the Axiom Battery, and more than powerful enough to accomodate for any momentary energy needs."
+
+outfit "Presupposition Battery"
+	plural "Presupposition Batteries"
+	category "Power"
+	"cost" 247900
+	thumbnail "outfit/medium searcher battery"
+	"mass" 38
+	"outfit space" -38
+	"energy capacity" 24300
+	description "The Presupposition Battery is the Searchers' mid-range battery, and the main electrical storage device used in their ships. While it may not be too powerful, it is efficient and reliable."
+
+outfit "Tautology Battery"
+	plural "Tautology Batteries"
+	category "Power"
+	"cost" 319900
+	thumbnail "outfit/large searcher battery"
+	"mass" 51
+	"outfit space" -51
+	"energy capacity" 33700
+	description "The Tautology Battery is the largest widely available battery the Searchers' outfitters stock. While larger batteries are ocassionally fitted by their captains, this is a rare occurance. After all, the it is easily capable of providing power for all but the very largest ships, and it has built up a reputation for reliability and efficiency."
+
+outfit "Transitive Battery"
+	plural "Transitive Batteries"
+	category "Power"
+	"cost" 510200
+	thumbnail "outfit/huge searcher battery"
+	"mass" 83
+	"outfit space" -83
+	"energy capacity" 56500
+	description "This is the single largest battery module you have ever seen. The size of a large nuclear reactor, it is nearly impossible to fit into most ships. Nonetheless, it provides an unrivaled amount of electrical storage capacity for the few ships with enough space to hold it."
+
+outfit "Solar Collection Unit"
+	category "Power"
+	"cost" 44800
+	thumbnail "outfit/solar collection unit"
+	"mass" 13
+	"outfit space" -10
+	"solar collection" 0.7
+	"ramscoop" 0.2
+	description "When the Searchers were still a young species with only a couple of systems under their control, their engineers quickly recognized the need for a way to survive on the uninhabited frontiers of their space. Over time, they added to their early ramscoops, and now these solar collection units are the primary sources of power for their ships."
+
+outfit "SSU-1 Obstructive Shields"
+	plural "SSU-1 Obstructive Shields"
+	category "Systems"
+	thumbnail "outfit/tiny searcher shields"
+	cost 45000
+	mass 25
+	"outfit space" -25
+	"shield generation" .3
+	"shield energy" .2
+	description "The SSU-1 Obstuctive Shield Unit is the smallest module of its kind the Searchers make. It is intended for use on Searcher drones, and recharges shields moderately quickly while drawing only a very small amount of power. Unfortunately, to optimize the power usage it was necessary to increase the size of the outfit, so the Obstructive Shield Unit is quite large, as well as expensive."
+
+outfit "SSU-2 Protective Shields"
+	plural "SSU-2 Protective Shields"
+	category "Systems"
+	thumbnail "outfit/small searcher shields"
+	cost 65000
+	mass 38
+	"outfit space" -38
+	"shield generation" .5
+	"shield energy" .3
+	description "The SSU-2 Protective Shield Unit is a step up from the most basic Searcher shield generation systems, designed for use in small motherships such as the Searcher Temple. It is even more energy efficient than its smaller cousin, while being marginally smaller and slightly more cost-efficient."
+
+outfit "SSU-3 Effective Shields"
+	plural "SSU-3 Effective Shields"
+	category "Systems"
+	thumbnail "outfit/medium searcher shields"
+	cost 85000
+	mass 50
+	"outfit space" -50
+	"shield generation" .7
+	"shield energy" .4
+	description "The SSU-3 Effective Shield Unit is designed as a considerably more modern, efficient shield module for Searcher ships. It fits well as a medium-strength module: smaller than the enormous units designed for capital ships, but still powerful enough to be useful."
+
+outfit "SSU-4 Reliable Shields"
+	plural "SSU-4 Reliable Shields"
+	category "Systems"
+	thumbnail "outfit/large searcher shields"
+	cost 115000
+	mass 69
+	"outfit space" -69
+	"shield generation" 1
+	"shield energy" .6
+	description "The SSU-4 Reliable Shield Unit has been in use for centuries as a shield module built with small capital ships in mind. It is undeniably large but also quite powerful, comparable to the largest shield generators available in human space. Although it is quite bulky and not quite as energy efficient as the newer SSU-3, the SSU-4 is still a very capable shield generation unit."
+
+outfit "SSU-5 Adamantine Shields"
+	plural "SSU-5 Adamantine Shields"
+	category "Systems"
+	thumbnail "outfit/huge searcher shields"
+	cost 205000
+	mass 125
+	"outfit space" -125
+	"shield generation" 1.9
+	"shield energy" 1.1
+	description "The SSU-5 Adamantine Shield Unit is the largest shield module the Searchers have ever built. It is insanely capable, far more advanced than anything humans have produced, despite its large size. Overall, this outfit is very impressive considering that the Searchers have never fought a major war in space where they needed to use shielding, and that it was originally designed to help protect large ships from asteroids."
+
+outfit "Searcher Heat Sink"
+	category "Systems"
+	thumbnail "outfit/searcher heat sink"
+	cost 11000
+	mass 5
+	"outfit space" -3
+	"heat capacity" 10
+	"active cooling" 3
+	"shields" -100
+	description "The Searchers generally build fairly heat-efficient systems, and nowhere is this more obvious than in their single, nearly useless, cooling system. This heat sink wicks away heat from your ship, allowing it to cool slightly faster and hold more heat before overheating. It is also fairly easy to attach, just needing to be bolted on to the outside of your ship and have a couple of ducts run through to where they can accomplish something. Unfortunately, mounting things onto the outside of a ship's hull tends to cause problems with its shield matrix."
+
+outfit "Linguistic Scanner"
+	category "Systems"
+	thumbnail "outfit/linguistic scanner"
+	cost 454000
+	mass 15
+	"outfit space" -15
+	"atmosphere scan" 50
+	"cargo scan power" 25
+	"cargo scan efficiency" 10
+	"outfit scan power" 49
+	"outfit scan efficiency" 30
+	"asteroid scan power" 10
+	"tactical scan power" 50
+	description "As part of how the Searchers' language acquisition process works, they scan and record all audio from nearby ships, using a highly focused laser to pick up on vibrations in the hull of the ship. The scanner they use for that purpose is so powerful that it is also highly effective at performing other types of scans. Unfortunately, it's also quite bulky, so it is not nearly as mass-efficient as a specialized scanner for any specific kind of scan."
+
+# Engines: Dioscuri (Combo), Castor and Pollux, Scuti and Carinae, Cygnus and Sagittarius
+outfit "SGT-1 Castor Thruster"
+	category "Engines"
+	thumbnail "outfit/small searcher thruster"
+	mass 36
+	"outfit space" -36
+	"engine capacity" -36
+	thrust 28
+	"thrusting energy" 35
+	"thrusting heat" 4
+	"inertia reduction" 0.05
+	"flare sprite" "effect/searcher flare/medium"
+	description "The Searchers use a unique method of propulsion in the galaxy. While many species have settled on plasma or electric thrusters, and the Quarg widely use graviton technology, the Searchers have developed large arrays of thrusters that are partially nuclear and partially nano-electrokinetic."
+
+outfit "Helical Flechette Railgun"
+	category "Hand to Hand"
+	thumbnail "outfit/flechette railgun"
+	cost 37500
+	"capture attack" 1.6
+	"capture defense" 0.8
+	description "While humanity was learning how to use beam weapons, the Searchers perfected the ones they already had. This helical railgun has enough recoil that it must be strapped to its user's arm, but it is capable of firing three hundred depleted uranium-tipped flechettes a second in shells containing one hundred each. The railgun runs out of ammo and power quickly, but while it lasts it can do devestating damage to people and armour alike, made worse by the fact that the toxin in the darts is poisonous for most species in the galaxy. Unfortunately, the Helical Flechette Railgun is slightly less useful in defensive engagements, as it has a tendency to destroy valuable pieces of equipment."
