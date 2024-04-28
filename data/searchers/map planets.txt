@@ -48,15 +48,6 @@ planet Domum
 	description `	There is no center of government on Domum: each village is ruled by an Erus-caste Searcher who meets with the other members of the ruling caste using video conferencing to decide important matters of state. Each Erus-caste Searcher has near-total control over their village.`
 	spaceport `There are few large cities on Domum, even though the Seakers seem to have overpopulated all of their other planets. There is no main spaceport here: each village has its own, and none of them have all that great a capacity. Visting freighters tend to stop at each village individually, the villagers having placed orders for items they require ahead of time in most cases. The spaceport here is similar to all the others on this planet: positioned in the center of a fairly large village, and consisting of a solid chunk of rock with rings etched into it to denote landing spots.`
 
-planet Eastgate
-	wormhole Eastgate
-
-wormhole Eastgate
-	mappable
-	color .4 1 .0
-	link Photon Meson
-	link Meson Photon
-
 planet Fornax
 	attributes searchers manufacturing moon
 	landscape land/loc0
@@ -75,15 +66,6 @@ planet Ligo
 	description `Ligo is the largest importer of biological products in all of Searcher space, accepting just about any sort of waste product for conversion into plastics. These plastics are then exported for use in thousands of fields, from medicine to heavy industry. This entire planet exists just to be a giant manufacturing plant for the Searchers, and suffers from enormous amounts of environmental damage because of it.`
 	spaceport `The spaceport here is unusually large, built to handle the influx of biomass that the planet receives. One entire wing is dedicated solely to hazardous materials of all sorts, and another works at packing plastics into large containers. There are many Searchers here, as there is less automation to be found in this spaceport than in others in Searcher space, and you get an eerie feeling, as if the Searchers here were machines, instead of people doing the tasks of machines. No one speaks, and the dominant sound as the patter of thousands of swftly moving feet.`
 
-planet Northgate
-	wormhole Northgate
-
-wormhole Northgate
-	mappable
-	color .4 1 .0
-	link Photon Electron
-	link Electron Photon
-
 planet Sacoma
 	attributes searchers manufacturing mining
 	landscape land/canyon12
@@ -96,26 +78,8 @@ planet Salus
 	description `Salus is a very cloudy world, notable for its heat and the red tint that the cloud cover gives its sun. The largest producer of medical products of all Searcher planets, it is very rich, and boasts the only major military base in all of Searcher space. Your ship is scanned upon landing, and you are carefully watched to make sure you don't attempt to do anything illegal.`
 	spaceport `The spaceport on Salus is very large, dominated by the military base. There is a lot of traffic here, but it has managed to avoid the worst of the congestion by the use of an extraordinarily complicated transportation network. The landing pads are generously sized, and there are enough if them to land even the very largest of fleets. As soon as you landed, you were provided with a guide instructing you in the operation of the transportation network.`
 
-planet Southgate
-	wormhole Southgate
-
-wormhole Southgate
-	mappable
-	color .4 1 .0
-	link Photon Baryon
-	link Baryon Photon
-
 planet Tela
 	attributes searchers textiles
 	landscape land/mountain9
 	description `Tela is the largest cloth producer of Searcher space, despite its size. It is covered in massive textile mills, and under its surface are hidden thousands upon thousands of young Searchers who labour daily producing cloth. Tela's population never sees most of the cloth it produces again: it is shipped elsewhere, to where it can sell for a good deal more money. Because of this, Tela is a very poor world, whose inhabitants have to constantly struggle to survive.`
 	spaceport `The spaceport on Tela is located high in the mountains. From it you can see hundreds of caves in the sides of mountains, each housing hundreds of destitute Searchers. Although the poverty here comes as a bit of a surprise, what is even more surprising is that everyone seems to take it for granted. Those who cannot find work slowly die off, replaced by an influx of new immigrants seeking their fortune away from home.`
-
-planet Westgate
-	wormhole Westgate
-
-wormhole Westgate
-	mappable
-	color .4 1 .0
-	link Photon Quark
-	link Quark Photon

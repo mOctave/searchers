@@ -75,11 +75,6 @@ system Baryon
 			sprite planet/ice7
 			distance 278
 			period 16.4891
-	object Southgate
-		sprite planet/wormhole-searchers
-		distance 6013.31
-		period 16053.3
-		offset 28.2873
 
 system Boson
 	pos 265.973 -990.925
@@ -197,10 +192,6 @@ system Electron
 			sprite planet/ice7
 			distance 311
 			period 23.4322
-	object Northgate
-		sprite planet/wormhole-searchers
-		distance 6000
-		period 8000
 
 system Fermion
 	pos 327.158 -688.068
@@ -609,10 +600,6 @@ system Meson
 			sprite planet/miranda
 			distance 124
 			period 15.4653
-	object Eastgate
-		sprite planet/wormhole-searchers
-		distance 6000
-		period 8000
 
 system Muon
 	pos 401.973 -785.925
@@ -873,25 +860,6 @@ system Photon
 			sprite planet/europa
 			distance 469
 			period 53.4634
-	object Northgate
-		sprite planet/wormhole-searchers
-		distance 6000
-		period 8000
-	object Eastgate
-		sprite planet/wormhole-searchers
-		distance 6000
-		period 8000
-		offset 90
-	object Southgate
-		sprite planet/wormhole-searchers
-		distance 6000
-		period 8000
-		offset 180
-	object Westgate
-		sprite planet/wormhole-searchers
-		distance 6000
-		period 8000
-		offset 270
 
 system Pion
 	pos 457.125 -895.792
@@ -1074,11 +1042,6 @@ system Quark
 		distance 3974.16
 		period 2419.89
 		offset 9.52585
-	object Westgate
-		sprite planet/wormhole-searchers
-		distance 6025.79
-		period 4518.03
-		offset 322.544
 
 system Tau
 	pos 246.125 -664.792

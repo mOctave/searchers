@@ -1,0 +1,148 @@
+# Copyright (c) 2024 by mOctave
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+# A set of missions which links and unlinks the rim systems with Photon on a
+# random basis.
+mission "Open Hyperlock: Quark"
+	invisible
+	landing
+	repeat
+	to offer
+		not "searchers lockdown"
+		not "Open Hyperlock: Quark: active"
+		random < 30
+	on offer
+		event "Open Hyperlock: Quark" 1 5
+	to fail
+		has "quark open"
+
+event "Open Hyperlock: Quark"
+	set "quark open"
+	link "Quark" "Photon"
+
+mission "Close Hyperlock: Quark"
+	invisible
+	landing
+	repeat
+	to offer
+		not "Close Hyperlock: Quark: active"
+		random < 20 + "searchers lockdown" * 50
+	on offer
+		event "Close Hyperlock: Quark" 1 5
+	to fail
+		not "quark open"
+
+event "Close Hyperlock: Quark"
+	clear "quark open"
+	unlink "Quark" "Photon"
+
+mission "Open Hyperlock: Electron"
+	invisible
+	landing
+	repeat
+	to offer
+		not "searchers lockdown"
+		not "Open Hyperlock: Electron: active"
+		random < 30
+	on offer
+		event "Open Hyperlock: Electron" 1 5
+	to fail
+		has "electron open"
+
+event "Open Hyperlock: Electron"
+	set "electron open"
+	link "Electron" "Photon"
+
+mission "Close Hyperlock: Electron"
+	invisible
+	landing
+	repeat
+	to offer
+		not "Close Hyperlock: Electron: active"
+		random < 20 + "searchers lockdown" * 50
+	on offer
+		event "Close Hyperlock: Electron" 1 5
+		fail
+	to fail
+		not "electron open"
+
+event "Close Hyperlock: Electron"
+	clear "electron open"
+	unlink "Electron" "Photon"
+
+mission "Open Hyperlock: Meson"
+	invisible
+	landing
+	repeat
+	to offer
+		not "searchers lockdown"
+		not "Open Hyperlock: Meson: active"
+		random < 30
+	on offer
+		event "Open Hyperlock: Meson" 1 5
+	to fail
+		has "meson open"
+
+event "Open Hyperlock: Meson"
+	set "meson open"
+	link "Meson" "Photon"
+
+mission "Close Hyperlock: Meson"
+	invisible
+	landing
+	repeat
+	to offer
+		has "meson open"
+		not "Close Hyperlock: Meson: active"
+		random < 20 + "searchers lockdown" * 50
+	on offer
+		event "Close Hyperlock: Meson" 1 5
+	to fail
+		not "meson open"
+
+event "Close Hyperlock: Meson"
+	clear "meson open"
+	unlink "Meson" "Photon"
+
+mission "Open Hyperlock: Baryon"
+	invisible
+	landing
+	repeat
+	to offer
+		not "searchers lockdown"
+		not "Open Hyperlock: Baryon: active"
+		random < 30
+	on offer
+		event "Open Hyperlock: Baryon" 1 5
+	to fail
+		has "baryon open"
+
+event "Open Hyperlock: Baryon"
+	set "baryon open"
+	link "Baryon" "Photon"
+
+mission "Close Hyperlock: Baryon"
+	invisible
+	landing
+	repeat
+	to offer
+		not "Close Hyperlock: Baryon: active"
+		random < 20 + "searchers lockdown" * 50
+	on offer
+		event "Close Hyperlock: Baryon" 1 5
+	to fail
+		not "baryon open"
+
+event "Close Hyperlock: Baryon"
+	clear "baryon open"
+	unlink "Baryon" "Photon"
