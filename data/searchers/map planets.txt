@@ -15,7 +15,7 @@ planet Aes
 	attributes searchers mining
 	landscape land/badlands4
 	description `Aes is a very strange world, completely devoid of life. Although there is an atmosphere, it is completely unbreathable, and the dry heat is oppressive. This planet should not be habitable, yet the Searchers have managed to live here, building giant domes on the surface and sealed caves underneath. Perhaps the reason this planet has been settled is that it is full of useful ores: the entire planet amounts to one big mining operation for iron, nickel, and gold.`
-	spaceport `The spaceport here looks to your eyes a lot like pictures you've seen of bases on Mars prior to its terraforming: undeniably mechanical, designed to withstand hostile climates, and very, very old. The landing pads are basically giant airlocks: you land on a ring that closes the dome, and then the entire chamber is pumped full of breathable air. When a ship takes off, it first must go through the several-minute long process of pumping the air back out again.`
+	spaceport `The spaceport here looks a lot like pictures you've seen of bases on Mars prior to its terraforming: undeniably mechanical, designed to withstand hostile climates, and very, very old. The landing pads are basically giant airlocks: you land on a ring that closes the dome, and then the entire chamber is pumped full of breathable air. When a ship takes off, it first must go through the several-minute long process of pumping the air back out again.`
 
 planet Apto
 	attributes searchers manufacturing urban shipping
@@ -77,10 +77,9 @@ planet Salus
 	landscape land/clouds_02
 	description `Salus is a very cloudy world, notable for its heat and the red tint that the cloud cover gives its sun. The largest producer of medical products of all Searcher planets, it is very rich, and boasts the only major military base in all of Searcher space. Your ship is scanned upon landing, and you are carefully watched to make sure you don't attempt to do anything illegal.`
 	spaceport `The spaceport on Salus is very large, dominated by the military base. There is a lot of traffic here, but it has managed to avoid the worst of the congestion by the use of an extraordinarily complicated transportation network. The landing pads are generously sized, and there are enough if them to land even the very largest of fleets. As soon as you landed, you were provided with a guide instructing you in the operation of the transportation network.`
-	security 1
 
 planet Tela
 	attributes searchers textiles
 	landscape land/mountain9
-	description `Tela is the largest cloth producer of Searcher space, despite its size. It is covered in massive textile mills, and under its surface are hidden thousands upon thousands of young Searchers who labor daily producing cloth. Tela's population never sees most of the cloth it produces again: it is shipped elsewhere, to where it can sell for a good deal of money. Because of this, Tela is a very poor world, whose inhabitants have to constantly struggle to survive.`
+	description `Tela is the largest cloth producer of Searcher space, despite its size. It is covered in massive textile mills, and under its surface are hidden thousands upon thousands of young Searchers who labor daily producing cloth. Tela's population never sees most of the cloth it produces again: it is shipped elsewhere, to where it can sell for a much higher price. Because of this, Tela is a very poor world, whose inhabitants have to constantly struggle to survive.`
 	spaceport `The spaceport on Tela is located high in the mountains. From it you can see hundreds of caves in the sides of mountains, each housing hundreds of destitute Searchers. Although the poverty here comes as a bit of a surprise, what is even more surprising is that everyone seems to take it for granted. Those who cannot find work slowly die off, replaced by an influx of new immigrants seeking their fortune away from home.`
