@@ -17,7 +17,7 @@ phrase "searcher friendly"
 		"searcher greeting"
 
 phrase "searcher hostile"
-	phrase
+	word
 		""
 
 
@@ -70,7 +70,7 @@ phrase "revolutionary quotes"
 		"These are not troops. They are skeletons."
 		"The hour is fast approaching on which the honour and success of this army, and the safety of our bleeding country depend."
 		"I'm not throwing away my shot!"
-		"You villian, what are you doing?"
+		"You villain, what are you doing?"
 		"The bitterest tears shed over graves are for words left unsaid and deeds left undone."
 		"Liberty, equality, fraternity!"
 		"Fire on the tyranny of privilege and oppression that enclosed common land."
