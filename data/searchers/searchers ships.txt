@@ -123,7 +123,7 @@ ship "Searcher Temple"
 		"Lemma Battery"
 		"Linguistic Scanner"
 		
-		"SGT-1 Castor Thruster"
+		"Castor Thruster"
 		"X3200 Ion Steering"
 
 		"Hyperdrive"
@@ -179,7 +179,7 @@ ship "Searcher Chapel"
 		"Lemma Battery"
 		"Linguistic Scanner"
 		
-		"SGT-1 Castor Thruster"
+		"Castor Thruster"
 		"X3200 Ion Steering"
 
 		"Hyperdrive"
@@ -245,7 +245,7 @@ ship "Searcher Ziggurat"
 		"Lemma Battery"
 		"Linguistic Scanner"
 		
-		"SGT-1 Castor Thruster"
+		"Castor Thruster"
 		"X3200 Ion Steering"
 
 		"Hyperdrive"
@@ -313,7 +313,7 @@ ship "Searcher Cathedral"
 		"Presupposition Battery"
 		"Linguistic Scanner"
 		
-		"SGT-1 Castor Thruster"
+		"Scuti Thruster"
 		"X3200 Ion Steering"
 
 		"Hyperdrive"
@@ -383,7 +383,7 @@ ship "Searcher Pyramid"
 		"Presupposition Battery"
 		"Linguistic Scanner"
 		
-		"SGT-1 Castor Thruster"
+		"Scuti Thruster"
 		"X3200 Ion Steering"
 
 		"Hyperdrive"
