@@ -266,6 +266,26 @@ outfit "Linguistic Scanner"
 	description "As part of how the Searchers' language acquisition process works, they scan and record all audio from nearby ships, using a highly focused laser to pick up on vibrations in the hull of the ship. The scanner they use for that purpose is so powerful that it is also highly effective at performing other types of scans. Unfortunately, it's also quite bulky, so it is not nearly as mass-efficient as a specialized scanner for any specific kind of scan."
 
 # Engines: Dioscuri (Combo), Castor and Pollux, Scuti and Carinae, Cygnus and Sagittarius
+outfit "Dioscuri Engines"
+	plural "Dioscuri Engines"
+	category "Engines"
+	series "Searchers"
+	index 10
+	thumbnail "outfit/unknown"
+	cost 62000
+	mass 38
+	"outfit space" -38
+	"engine capacity" -38
+	thrust 13
+	"thrusting energy" 1.4
+	"thrusting heat" 0.9
+	"turn" 299
+	"turning energy" 1.8
+	"turning heat" 1.05
+	"inertia reduction" 0.03
+	"flare sprite" "effect/searcher flare/small"
+	description "The Searchers' only combination thruster and steering engine, the Dioscuri is designed for use in the species' unusually large drones. When properly installed, it is far more powerful than any similar human engine, but is also considerably less efficient than a set of dedicated Searcher thrusters and steering engines."
+
 outfit "Castor Thruster"
 	category "Engines"
 	series "Searchers"
@@ -282,6 +302,21 @@ outfit "Castor Thruster"
 	"flare sprite" "effect/searcher flare/small"
 	description "The Searchers use a unique method of propulsion in the galaxy. While many species have settled on plasma or electric thrusters, and the Quarg widely use graviton technology, the Searchers have developed large arrays of thrusters that are partially nuclear and partially nano-electrokinetic."
 
+outfit "Pollux Steering"
+	category "Engines"
+	series "Searchers"
+	index 30
+	thumbnail "outfit/unknown"
+	cost 44000
+	mass 27
+	"outfit space" -27
+	"engine capacity" -27
+	"turn" 478
+	"turning energy" 2.5
+	"turning heat" 1.3
+	"inertia reduction" 0.02
+	description "The Pollux steering unit is the smallest set of steering engines the Searchers make, designed as a companion for the Castor Thruster. It relies on a combination of nuclear and nano-electrokinetic engines which allow for high energy efficiency at the cost of very poor space efficiency."
+
 outfit "Scuti Thruster"
 	category "Engines"
 	series "Searchers"
@@ -297,6 +332,20 @@ outfit "Scuti Thruster"
 	"inertia reduction" 0.15
 	"flare sprite" "effect/searcher flare/medium"
 	description "Significantly larger than their smallest set of thrusters, the Searchers' Scuti-class thrusters provide enough thrust for a medium warship or large freighter, and run unusually cool for engines of their class. They do, however, take up an usually large amount of space."
+
+outfit "Carinae Steering"
+	category "Engines"
+	series "Searchers"
+	index 50
+	thumbnail "outfit/unknown"
+	cost 113000
+	mass 68
+	"outfit space" -68
+	"engine capacity" -68
+	"turn" 1434
+	"turning energy" 7
+	"turning heat" 3.4
+	description "The older sibling of the Pollux, the Carinae class of steering engine is significantly more efficient, and powerful enough for all but the largest ships. However, it does not provide the inertia reduction benefits of its smaller sibling."
 
 outfit "Cygnus Thruster"
 	category "Engines"
@@ -317,6 +366,21 @@ outfit "Cygnus Thruster"
 	"flare sprite" "effect/searcher flare/large"
 	"afterburner effect" "cygnus afterburner"
 	description "The Searchers' largest set of thrusters, the Cygnus class provides a comparable amount of thrust to the largest human engines. Of course, they are larger and less energy efficient, but they come with a built in afterburner of a type that doesn't use hyperspace fuel, designed to allow even the largest ships a chance of fleeing combat."
+
+outfit "Sagittarius Steering" # 5 nozzles per side
+	category "Engines"
+	series "Searchers"
+	index 70
+	thumbnail "outfit/unknown"
+	cost 180800
+	mass 102
+	"outfit space" -102
+	"engine capacity" -102
+	"turn" 2390
+	"turning energy" 10
+	"turning heat" 4.9
+	"turning slowing" 0.5
+	description "The largest steering engines produced by the Searchers, the Sagittarius are so powerful that they tend to interfere with the thrusting systems of the ships they are installed on, reducing their efficiency. This is made up by the fact that they produce as much heat as a human engine of about a third their power and size."
 
 effect "cygnus afterburner"
 	sprite "effect/searcher flare/afterburner"

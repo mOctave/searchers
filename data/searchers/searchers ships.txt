@@ -41,8 +41,7 @@ ship "Searcher Pestle"
 		"Solar Collection Unit"
 		"Axiom Battery"
 		
-		"X1700 Ion Thruster"
-		"X1200 Ion Steering"
+		"Dioscuri Engines"
 
 	gun 0 -21 "Energy Blaster"
 	turret 0 1.5 "Scattergun Anti-Missile"
@@ -79,8 +78,7 @@ ship "Searcher Mortar"
 		"Solar Collection Unit"
 		"Axiom Battery"
 		
-		"X1700 Ion Thruster"
-		"X1200 Ion Steering"
+		"Dioscuri Engines"
 
 	gun -8.5 -25.5 "Meteor Missile Launcher"
 	gun 8.5 -25.5 "Meteor Missile Launcher"
@@ -124,7 +122,7 @@ ship "Searcher Temple"
 		"Linguistic Scanner"
 		
 		"Castor Thruster"
-		"X3200 Ion Steering"
+		"Pollux Steering"
 
 		"Hyperdrive"
 
@@ -180,7 +178,7 @@ ship "Searcher Chapel"
 		"Linguistic Scanner"
 		
 		"Castor Thruster"
-		"X3200 Ion Steering"
+		"Pollux Steering"
 
 		"Hyperdrive"
 
@@ -246,7 +244,7 @@ ship "Searcher Ziggurat"
 		"Linguistic Scanner"
 		
 		"Castor Thruster"
-		"X3200 Ion Steering"
+		"Pollux Steering"
 
 		"Hyperdrive"
 
@@ -314,7 +312,7 @@ ship "Searcher Cathedral"
 		"Linguistic Scanner"
 		
 		"Scuti Thruster"
-		"X3200 Ion Steering"
+		"Carinae Steering"
 
 		"Hyperdrive"
 
@@ -384,7 +382,7 @@ ship "Searcher Pyramid"
 		"Linguistic Scanner"
 		
 		"Scuti Thruster"
-		"X3200 Ion Steering"
+		"Carinae Steering"
 
 		"Hyperdrive"
 
