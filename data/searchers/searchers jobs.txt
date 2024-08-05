@@ -1,0 +1,238 @@
+# Copyright (c) 2024 by mOctave
+#
+# Endless Sky is free software: you can redistribute it and/or modify it under the
+# terms of the GNU General Public License as published by the Free Software
+# Foundation, either version 3 of the License, or (at your option) any later version.
+#
+# Endless Sky is distributed in the hope that it will be useful, but WITHOUT ANY
+# WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <https://www.gnu.org/licenses/>.
+
+mission "Searchers Cargo (Half Temple)"
+	name "Government allotment to <planet>"
+	job
+	repeat
+	description "Deliver a government allotment of <cargo> to <destination>. Payment is <payment>."
+	cargo random 120
+	source
+		government "Searchers"
+	destination
+		government "Searchers"
+		not planet "Domum"
+	to offer
+		"reputation: Searchers" >= 0
+		random < 80
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		"searchers government jobs" += 1
+		dialog phrase "searchers government cargo completion dialog"
+		payment 5000 80
+
+mission "Searchers Cargo (Half Ziggurat)"
+	name "Government allotment to <planet>"
+	job
+	repeat
+	description "Deliver a government allotment of <cargo> to <destination>. Payment is <payment>."
+	cargo random 190
+	source
+		government "Searchers"
+	destination
+		government "Searchers"
+		not planet "Domum"
+	to offer
+		"reputation: Searchers" >= 0
+		random < 70
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		"searchers government jobs" += 1
+		dialog phrase "searchers government cargo completion dialog"
+		payment 7000 75
+
+mission "Searchers Cargo (Full Temple)"
+	name "Government allotment to <planet>"
+	job
+	repeat
+	description "Deliver a government allotment of <cargo> to <destination>. Payment is <payment>."
+	cargo random 240
+	source
+		government "Searchers"
+	destination
+		government "Searchers"
+		not planet "Domum"
+	to offer
+		"reputation: Searchers" >= 0
+		random < 40
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		"searchers government jobs" += 1
+		dialog phrase "searchers government cargo completion dialog"
+		payment 9000 70
+
+mission "Searchers Cargo (Half Pyramid)"
+	name "Government allotment to <planet>"
+	job
+	repeat
+	description "Deliver a government allotment of <cargo> to <destination>. Payment is <payment>."
+	cargo random 300
+	source
+		government "Searchers"
+	destination
+		government "Searchers"
+		not planet "Domum"
+	to offer
+		"reputation: Searchers" >= 0
+		random < 60
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		"searchers government jobs" += 1
+		dialog phrase "searchers government cargo completion dialog"
+		payment 11000 70
+
+mission "Searchers Cargo (Full Ziggurat)"
+	name "Government allotment to <planet>"
+	job
+	repeat
+	description "Deliver a government allotment of <cargo> to <destination>. Payment is <payment>."
+	cargo random 380
+	source
+		government "Searchers"
+	destination
+		government "Searchers"
+		not planet "Domum"
+	to offer
+		"reputation: Searchers" >= 0
+		random < 30
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		"searchers government jobs" += 1
+		dialog phrase "searchers government cargo completion dialog"
+		payment 13000 65
+
+mission "Searchers Cargo (Full Pyramid)"
+	name "Government allotment to <planet>"
+	job
+	repeat
+	description "Deliver a government allotment of <cargo> to <destination>. Payment is <payment>."
+	cargo random 600
+	source
+		government "Searchers"
+	destination
+		government "Searchers"
+		not planet "Domum"
+	to offer
+		"reputation: Searchers" >= 0
+		random < 40
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		"searchers government jobs" += 1
+		dialog phrase "searchers government cargo completion dialog"
+		payment 15000 60
+
+# Delivery jobs to Domum require higher reputation and might be obstructed, so pay more
+mission "Searchers Cargo (Domum Temple)"
+	name "Government allotment to <planet>"
+	job
+	repeat
+	description "Deliver a government allotment of <cargo> to <destination>. Payment is <payment>."
+	cargo random 240
+	source
+		government "Searchers"
+	destination "Domum"
+	to offer
+		"reputation: Searchers" >= 2
+		random < 30
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		"searchers government jobs" += 1
+		dialog phrase "searchers government cargo completion dialog"
+		payment 14000 105
+
+mission "Searchers Cargo (Domum Ziggurat)"
+	name "Government allotment to <planet>"
+	job
+	repeat
+	description "Deliver a government allotment of <cargo> to <destination>. Payment is <payment>."
+	cargo random 380
+	source
+		government "Searchers"
+	destination "Domum"
+	to offer
+		"reputation: Searchers" >= 2
+		random < 25
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		"searchers government jobs" += 1
+		dialog phrase "searchers government cargo completion dialog"
+		payment 26000 100
+
+mission "Searchers Cargo (Domum Pyramid)"
+	name "Government allotment to <planet>"
+	job
+	repeat
+	description "Deliver a government allotment of <cargo> to <destination>. Payment is <payment>."
+	cargo random 600
+	source
+		government "Searchers"
+	destination "Domum"
+	to offer
+		"reputation: Searchers" >= 2
+		random < 20
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		"searchers government jobs" += 1
+		dialog phrase "searchers government cargo completion dialog"
+		payment 30000 95
+
+mission "Searchers Cargo (Irregular) [0]"
+	name "Irregular cargo to <planet>"
+	job
+	repeat
+	description "An independent individual is looking for a pilot willing to deliver <cargo> to <destination>. Payment is <payment>."
+	cargo random 10 10 .2
+	source
+		government "Searchers"
+	destination
+		government "Searchers"
+		not planet "Domum"
+	to offer
+		"reputation: Searchers" >= 0
+		random < 50
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		"searchers independent jobs" += 1
+		dialog phrase "searchers independent cargo completion dialog"
+		payment 5000 140
+
+mission "Searchers Cargo (Irregular) [1]"
+	name "Irregular cargo to <planet>"
+	job
+	repeat
+	description "An independent individual is looking for a pilot willing to deliver <cargo> to <destination>. Payment is <payment>."
+	cargo random 10 10 .2
+	source
+		government "Searchers"
+	destination
+		government "Searchers"
+		not planet "Domum"
+	to offer
+		"reputation: Searchers" >= 0
+		random < 40
+	on visit
+		dialog phrase "generic cargo on visit"
+	on complete
+		"searchers independent jobs" += 1
+		dialog phrase "searchers independent cargo completion dialog"
+		payment 6000 160
