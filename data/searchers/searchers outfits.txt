@@ -162,8 +162,7 @@ outfit "Tautology Battery"
 	"mass" 51
 	"outfit space" -51
 	"energy capacity" 33700
-	description "The Tautology Battery is the largest widely available battery the Searchers' outfitters stock. While larger batteries are occassionally fitted by their captains, this is a rare occurrence. After all, 
-it is easily capable of providing power for all but the very largest ships, and has built up a reputation for reliability and efficiency."
+	description "The Tautology Battery is the largest widely available battery the Searchers' outfitters stock. While larger batteries are occasionally fitted by their captains, this is a rare occurrence. After all, it is easily capable of providing power for all but the very largest ships, and has built up a reputation for reliability and efficiency."
 
 outfit "Transitive Battery"
 	plural "Transitive Batteries"
