@@ -215,14 +215,18 @@ phrase "searchers independent cargo completion dialog"
 		"old"
 		"young"
 	word
+		" "
+	word
 		"dockmaster"
 		"individual"
 		"Searcher"
 	word
-		" who signs for your delivery of <commodity> and hands you"
+		" who signs for your delivery of <commodity> and hands you "
 	word
 		"your payment"
 		"a payment"
 		"the sum"
+	word
+		" "
 	word
 		"of <payment>."
