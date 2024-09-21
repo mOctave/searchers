@@ -40,25 +40,25 @@ phrase "searchers fighters"
 	word
 		"0x"
 	phrase
-		"hexidecimal"
+		"hex digit (capitalized)"
 	phrase
-		"hexidecimal"
+		"hex digit (capitalized)"
 	phrase
-		"hexidecimal"
+		"hex digit (capitalized)"
 	phrase
-		"hexidecimal"
+		"hex digit (capitalized)"
 	phrase
-		"hexidecimal"
+		"hex digit (capitalized)"
 	word
 		"-"
 	phrase
-		"hexidecimal"
+		"hex digit (capitalized)"
 	phrase
-		"hexidecimal"
+		"hex digit (capitalized)"
 	phrase
-		"hexidecimal"
+		"hex digit (capitalized)"
 	phrase
-		"hexidecimal"
+		"hex digit (capitalized)"
 
 # Phrases used to make up names
 
@@ -165,7 +165,7 @@ phrase "searchers consonant ending"
 		"x"
 		"z" 2
 
-phrase "hexidecimal"
+phrase "hex digit (capitalized)"
 	word
 		"0"
 		"1"
@@ -192,15 +192,41 @@ phrase "searchers government cargo completion dialog"
 		"a bureaucrat"
 		"a formally-dressed dockmaster"
 	word
-		" who signs for your delivery of <commodity> and hands you your payment of <payment>."
+		" who signs for your delivery of <commodity> and hands you"
+	word
+		"your payment"
+		"a payment"
+		"the sum"
+	word
+		"of <payment>."
 
 phrase "searchers independent cargo completion dialog"
 	word
 		"Landing on <planet>, you are met by "
 	word
-		"a somewhat confused dockmaster"
-		"a grumpy old Searcher"
-		"a starstruck young Searcher"
-		"a shady-looking individual"
+		"a somewhat confused"
+		"a grumpy"
+		"a starstruck"
+		"a shady-looking"
+		"a friendly"
+		"a strange"
+		"an egotistical"
 	word
-		" who signs for your delivery of <commodity> and hands you your payment of <payment>."
+		"old"
+		"young"
+	word
+		" "
+	word
+		"dockmaster"
+		"individual"
+		"Searcher"
+	word
+		" who signs for your delivery of <commodity> and hands you "
+	word
+		"your payment"
+		"a payment"
+		"the sum"
+	word
+		" "
+	word
+		"of <payment>."

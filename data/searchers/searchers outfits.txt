@@ -142,7 +142,7 @@ outfit "Lemma Battery"
 	"mass" 14
 	"outfit space" -14
 	"energy capacity" 8400
-	description "The next step up from the smallest of the Searchers' batteries, the Lemma Battery is even more compact than the Axiom Battery, and more than powerful enough to accomodate for any momentary energy needs."
+	description "The next step up from the smallest of the Searchers' batteries, the Lemma Battery is even more compact than the Axiom Battery, and more than powerful enough to accommodate for any momentary energy needs."
 
 outfit "Presupposition Battery"
 	plural "Presupposition Batteries"
@@ -162,7 +162,7 @@ outfit "Tautology Battery"
 	"mass" 51
 	"outfit space" -51
 	"energy capacity" 33700
-	description "The Tautology Battery is the largest widely available battery the Searchers' outfitters stock. While larger batteries are ocassionally fitted by their captains, this is a rare occurance. After all, the it is easily capable of providing power for all but the very largest ships, and it has built up a reputation for reliability and efficiency."
+	description "The Tautology Battery is the largest widely available battery the Searchers' outfitters stock. While larger batteries are occasionally fitted by their captains, this is a rare occurrence. After all, it is easily capable of providing power for all but the very largest ships, and has built up a reputation for reliability and efficiency."
 
 outfit "Transitive Battery"
 	plural "Transitive Batteries"
@@ -399,4 +399,4 @@ outfit "Helical Flechette Railgun"
 	cost 37500
 	"capture attack" 1.6
 	"capture defense" 0.8
-	description "While humanity was learning how to use beam weapons, the Searchers perfected the ones they already had. This helical railgun has enough recoil that it must be strapped to its user's arm, but it is capable of firing three hundred depleted uranium-tipped flechettes a second in shells containing one hundred each. The railgun runs out of ammo and power quickly, but while it lasts it can do devestating damage to people and armour alike, made worse by the fact that the toxin in the darts is poisonous for most species in the galaxy. Unfortunately, the Helical Flechette Railgun is slightly less useful in defensive engagements, as it has a tendency to destroy valuable pieces of equipment."
+	description "While humanity was learning how to use beam weapons, the Searchers perfected the ones they already had. This helical railgun has enough recoil that it must be strapped to its user's arm, but it is capable of firing three hundred depleted uranium-tipped flechettes a second in shells containing one hundred each. The railgun runs out of ammo and power quickly, but while it lasts it can do devastating damage to people and armor alike, made worse by the fact that the toxin in the darts is poisonous for most species in the galaxy. Unfortunately, the Helical Flechette Railgun is slightly less useful in defensive engagements, as it has a tendency to destroy valuable pieces of equipment."
